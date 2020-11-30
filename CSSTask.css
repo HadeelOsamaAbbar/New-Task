@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: "Eras ITC";
+}
+/*start head*/
+.StyleForHead{
+    display: inline-block;
+    background-color: rgba(190,190,190,0.4);
+    height: 400px;
+    width: 1650px;
+    margin-top: 100px;
+}
+.divQuality{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    background-position: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.divQuality h1{
+    color: red;
+}
+.divQuality p{
+    text-align: left;
+}
+.StyleForPic{
+    background-image: url("page2.jpg");
+    overflow: auto;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    float: right;
+    background-position: right;
+    margin-right: 250px;
+
+}
+.imgStyle{
+    width: 80px;
+    height: 100px;
+    overflow: auto;
+    border: 3px solid white;
+    background-position: 50% 50%;
+    float: left;
+    margin-top: 250px;
+    margin-right: 40px;
+}
+.img1{
+    margin-left: 30px;
+}
+/*end head*/
+
+/*start footer*/
+.updateParentDiv{
+    margin-left: 400px;
+}
+.head_update{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    color: rgb(15,33,90);
+}
+.updates{
+    background-color: rgba(190,190,190,0.4);
+    height: 300px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.updates p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/*.update1{
+    margin-left: 300px;
+}
+.update3{
+    margin-left: -300px;
+}*/
+.updateImgs{
+    height: 200px;
+    width: 190px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.usersUpdate{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+.usersUpdate, .name, .glyphicon, .rate{
+    display: inline-block;
+    text-align: left;
+    position: sticky;
+    margin-left: 4px;
+}
+
+.usersUpdate{
+    margin-left: 7px;
+}
+i:hover{
+    color: blue;
+}
+span:hover{
+    color: red;
+}
+/*end footer*/
+img{
+    transition: 1s;
+
+}
+img:hover{
+    transform: scale(1.1);
+}
